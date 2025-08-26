@@ -18,29 +18,20 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="max-w-md mx-4">
         <DialogHeader>
-          <DialogTitle>What is Pulpuluck?</DialogTitle>
+          <DialogTitle>What is a Pulpulak?</DialogTitle>
           <DialogDescription asChild>
             <div className="space-y-4 text-muted-foreground">
-              <img
-                src="https://images.unsplash.com/photo-1544531585-bb3131d3eb4d?w=400&h=200&fit=crop&auto=format"
-                alt="Public drinking fountain"
-                className="rounded-lg w-full h-32 object-cover"
-              />
-              
-              <p className="text-sm">
-                Pulpuluck helps you find clean, accessible drinking water fountains throughout Yerevan. 
-                Stay hydrated while exploring the city!
+              <p className="text-sm leading-relaxed">
+                A pulpulak (Armenian: պուլպուլակ, Armenian pronunciation: [pulpuˈlɑk]) is a public water fountain common in Armenia and in the former Armenian-populated Republic of Artsakh. Pulpulaks are a significant part of Armenian culture, and first appeared on the streets of Yerevan in the 1920s before becoming extremely popular.
               </p>
               
-              <div className="space-y-2">
-                <h3 className="font-medium text-foreground text-sm">Features:</h3>
-                <ul className="space-y-1 text-xs">
-                  <li>• Real-time fountain locations</li>
-                  <li>• Distance to nearest fountain</li>
-                  <li>• Accessibility information</li>
-                  <li>• Community updates</li>
-                </ul>
-              </div>
+              <p className="text-sm leading-relaxed">
+                Pulpulaks were, and still are, often used by people to arrange meetings and by couples as dating locations. Pulpulaks are small, usually one meter tall, stone memorials with running water, often fed by a mountain spring.
+              </p>
+              
+              <p className="text-sm leading-relaxed">
+                Some pulpulaks are erected in memory of dead relatives. In drinking from a memorial pulpulak, passersby give their blessing to the person in memory of whom it is constructed.
+              </p>
             </div>
           </DialogDescription>
         </DialogHeader>
