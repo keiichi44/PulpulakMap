@@ -6,6 +6,7 @@ import { useToast } from "@/hooks/use-toast";
 import LeafletMap from "@/components/map/leaflet-map";
 import InfoModal from "@/components/info-modal";
 import { fetchDrinkingFountains } from "@/services/overpass-api";
+import { fetchWalkingRoute, type Route } from "@/services/routing-api";
 import { getCurrentPosition } from "@/utils/geolocation";
 import { calculateDistance } from "@/utils/distance";
 
@@ -26,6 +27,8 @@ export default function MapPage() {
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
   const [isGettingLocation, setIsGettingLocation] = useState(false);
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+  const [walkingRoute, setWalkingRoute] = useState<Route | null>(null);
+  const [nearestFountain, setNearestFountain] = useState<Fountain | null>(null);
   const { toast } = useToast();
 
   const {
@@ -41,6 +44,9 @@ export default function MapPage() {
 
   const handleFindNearby = async () => {
     setIsGettingLocation(true);
+    // Clear previous route and nearest fountain
+    setWalkingRoute(null);
+    setNearestFountain(null);
     
     try {
       const position = await getCurrentPosition();
@@ -70,10 +76,28 @@ export default function MapPage() {
         });
 
         if (nearestFountain) {
-          toast({
-            title: "Nearest fountain found!",
-            description: `${Math.round(shortestDistance)}m away`,
-          });
+          setNearestFountain(nearestFountain);
+          
+          // Fetch walking route to the nearest fountain  
+          const foundFountain = nearestFountain as Fountain;
+          const route = await fetchWalkingRoute(
+            { lat: location.lat, lng: location.lng },
+            { lat: foundFountain.lat, lng: foundFountain.lon }
+          );
+          
+          if (route) {
+            setWalkingRoute(route);
+            const walkingTime = Math.round(route.duration / 60);
+            toast({
+              title: "Route found!",
+              description: `${Math.round(route.distance)}m away • ${walkingTime} min walk`,
+            });
+          } else {
+            toast({
+              title: "Nearest fountain found!",
+              description: `${Math.round(shortestDistance)}m away`,
+            });
+          }
         }
       }
     } catch (error) {
@@ -164,6 +188,8 @@ export default function MapPage() {
           <LeafletMap
             fountains={fountains}
             userLocation={userLocation}
+            walkingRoute={walkingRoute}
+            nearestFountain={nearestFountain}
             data-testid="map-container"
           />
         )}

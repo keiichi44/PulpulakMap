@@ -119,6 +119,29 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.custom-marker-fountain-nearest {
+  background: #34a853;
+  border: 3px solid #ffffff;
+  border-radius: 50% 50% 50% 0;
+  height: 28px;
+  width: 28px;
+  transform: rotate(-45deg);
+  box-shadow: 0 3px 8px rgba(52, 168, 83, 0.4);
+  animation: pulse-nearest 2s infinite;
+}
+
+@keyframes pulse-nearest {
+  0% {
+    box-shadow: 0 3px 8px rgba(52, 168, 83, 0.4);
+  }
+  50% {
+    box-shadow: 0 3px 12px rgba(52, 168, 83, 0.8);
+  }
+  100% {
+    box-shadow: 0 3px 8px rgba(52, 168, 83, 0.4);
+  }
+}
+
 .custom-marker-user {
   background: #4285f4;
   border: 3px solid #ffffff;

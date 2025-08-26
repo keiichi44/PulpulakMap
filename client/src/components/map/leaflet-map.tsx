@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import type { Fountain, UserLocation } from "@/pages/map";
+import type { Route } from "@/services/routing-api";
 import { calculateDistance } from "@/utils/distance";
 
 // Fix for default markers in Leaflet with webpack
@@ -15,15 +16,18 @@ L.Icon.Default.mergeOptions({
 interface LeafletMapProps {
   fountains: Fountain[];
   userLocation: UserLocation | null;
+  walkingRoute: Route | null;
+  nearestFountain: Fountain | null;
 }
 
 const YEREVAN_CENTER: [number, number] = [40.1792, 44.4991];
 
-export default function LeafletMap({ fountains, userLocation }: LeafletMapProps) {
+export default function LeafletMap({ fountains, userLocation, walkingRoute, nearestFountain }: LeafletMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
   const fountainMarkersRef = useRef<L.Marker[]>([]);
   const userMarkerRef = useRef<L.Marker | null>(null);
+  const routeLayerRef = useRef<L.Polyline | null>(null);
 
   // Initialize map
   useEffect(() => {
@@ -93,18 +97,21 @@ export default function LeafletMap({ fountains, userLocation }: LeafletMapProps)
 
     // Add new fountain markers
     fountains.forEach((fountain) => {
+      // Check if this is the nearest fountain
+      const isNearest = nearestFountain && nearestFountain.id === fountain.id;
+      
       const marker = L.marker([fountain.lat, fountain.lon], {
         icon: L.divIcon({
-          className: "custom-marker-fountain",
+          className: isNearest ? "custom-marker-fountain-nearest" : "custom-marker-fountain",
           html: "",
           iconSize: [24, 24],
           iconAnchor: [12, 24],
         }),
       });
-
+      
       const popupContent = `
         <div class="p-2">
-          <h3 class="font-semibold text-sm mb-1">Drinking Fountain</h3>
+          <h3 class="font-semibold text-sm mb-1">${isNearest ? "🎯 Nearest Fountain" : "Drinking Fountain"}</h3>
           <p class="text-xs text-muted-foreground">${
             fountain.name || fountain.tags?.name || "Public water fountain"
           }</p>
@@ -115,6 +122,7 @@ export default function LeafletMap({ fountains, userLocation }: LeafletMapProps)
                 )}m</p>`
               : ""
           }
+          ${isNearest && walkingRoute ? `<p class="text-xs mt-1 text-blue-600 font-medium">📍 Route shown in blue</p>` : ""}
         </div>
       `;
 
@@ -122,7 +130,7 @@ export default function LeafletMap({ fountains, userLocation }: LeafletMapProps)
       marker.addTo(mapInstanceRef.current!);
       fountainMarkersRef.current.push(marker);
     });
-  }, [fountains, userLocation]);
+  }, [fountains, userLocation, nearestFountain, walkingRoute]);
 
   // Update user marker
   useEffect(() => {
@@ -174,15 +182,48 @@ export default function LeafletMap({ fountains, userLocation }: LeafletMapProps)
         });
 
         if (nearestFountain) {
+          const foundFountain = nearestFountain as Fountain;
           const bounds = L.latLngBounds([
             [userLocation.lat, userLocation.lng],
-            [nearestFountain.lat, nearestFountain.lon],
+            [foundFountain.lat, foundFountain.lon],
           ]);
           mapInstanceRef.current.fitBounds(bounds, { padding: [50, 50] });
         }
       }
     }
   }, [userLocation, fountains]);
+
+  // Display walking route
+  useEffect(() => {
+    if (!mapInstanceRef.current) return;
+
+    // Remove existing route
+    if (routeLayerRef.current) {
+      mapInstanceRef.current.removeLayer(routeLayerRef.current);
+      routeLayerRef.current = null;
+    }
+
+    // Add new route if it exists
+    if (walkingRoute && walkingRoute.coordinates.length > 0) {
+      const routeCoordinates: [number, number][] = walkingRoute.coordinates.map(
+        (point) => [point.lat, point.lng]
+      );
+
+      const routePolyline = L.polyline(routeCoordinates, {
+        color: '#4285f4',
+        weight: 4,
+        opacity: 0.8,
+        smoothFactor: 1,
+      });
+
+      routePolyline.addTo(mapInstanceRef.current);
+      routeLayerRef.current = routePolyline;
+
+      // Fit map to show the route
+      const bounds = routePolyline.getBounds();
+      mapInstanceRef.current.fitBounds(bounds, { padding: [20, 20] });
+    }
+  }, [walkingRoute]);
 
   return <div ref={mapRef} className="h-full w-full" />;
 }
