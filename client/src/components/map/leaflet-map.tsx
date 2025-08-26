@@ -1,0 +1,188 @@
+import { useEffect, useRef } from "react";
+import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import type { Fountain, UserLocation } from "@/pages/map";
+import { calculateDistance } from "@/utils/distance";
+
+// Fix for default markers in Leaflet with webpack
+delete (L.Icon.Default.prototype as any)._getIconUrl;
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png",
+  iconUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon.png",
+  shadowUrl: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png",
+});
+
+interface LeafletMapProps {
+  fountains: Fountain[];
+  userLocation: UserLocation | null;
+}
+
+const YEREVAN_CENTER: [number, number] = [40.1792, 44.4991];
+
+export default function LeafletMap({ fountains, userLocation }: LeafletMapProps) {
+  const mapRef = useRef<HTMLDivElement>(null);
+  const mapInstanceRef = useRef<L.Map | null>(null);
+  const fountainMarkersRef = useRef<L.Marker[]>([]);
+  const userMarkerRef = useRef<L.Marker | null>(null);
+
+  // Initialize map
+  useEffect(() => {
+    if (!mapRef.current || mapInstanceRef.current) return;
+
+    const map = L.map(mapRef.current, {
+      center: YEREVAN_CENTER,
+      zoom: 13,
+      zoomControl: false,
+    });
+
+    // Add tile layer
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+      maxZoom: 19,
+    }).addTo(map);
+
+    // Add custom zoom control
+    L.control.zoom({
+      position: "topleft",
+    }).addTo(map);
+
+    mapInstanceRef.current = map;
+
+    // Custom CSS for markers
+    const style = document.createElement("style");
+    style.textContent = `
+      .custom-marker-fountain {
+        background: #ea4335;
+        border: 2px solid #ffffff;
+        border-radius: 50% 50% 50% 0;
+        height: 24px;
+        width: 24px;
+        transform: rotate(-45deg);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      
+      .custom-marker-user {
+        background: #4285f4;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        box-shadow: 0 2px 8px rgba(66, 133, 244, 0.4);
+      }
+    `;
+    document.head.appendChild(style);
+
+    return () => {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.remove();
+        mapInstanceRef.current = null;
+      }
+      document.head.removeChild(style);
+    };
+  }, []);
+
+  // Update fountain markers
+  useEffect(() => {
+    if (!mapInstanceRef.current) return;
+
+    // Clear existing fountain markers
+    fountainMarkersRef.current.forEach((marker) => {
+      mapInstanceRef.current?.removeLayer(marker);
+    });
+    fountainMarkersRef.current = [];
+
+    // Add new fountain markers
+    fountains.forEach((fountain) => {
+      const marker = L.marker([fountain.lat, fountain.lon], {
+        icon: L.divIcon({
+          className: "custom-marker-fountain",
+          html: "",
+          iconSize: [24, 24],
+          iconAnchor: [12, 24],
+        }),
+      });
+
+      const popupContent = `
+        <div class="p-2">
+          <h3 class="font-semibold text-sm mb-1">Drinking Fountain</h3>
+          <p class="text-xs text-muted-foreground">${
+            fountain.name || fountain.tags?.name || "Public water fountain"
+          }</p>
+          ${
+            userLocation
+              ? `<p class="text-xs mt-1">Distance: ${Math.round(
+                  calculateDistance(userLocation.lat, userLocation.lng, fountain.lat, fountain.lon)
+                )}m</p>`
+              : ""
+          }
+        </div>
+      `;
+
+      marker.bindPopup(popupContent);
+      marker.addTo(mapInstanceRef.current!);
+      fountainMarkersRef.current.push(marker);
+    });
+  }, [fountains, userLocation]);
+
+  // Update user marker
+  useEffect(() => {
+    if (!mapInstanceRef.current) return;
+
+    // Remove existing user marker
+    if (userMarkerRef.current) {
+      mapInstanceRef.current.removeLayer(userMarkerRef.current);
+      userMarkerRef.current = null;
+    }
+
+    // Add new user marker if location exists
+    if (userLocation) {
+      const marker = L.marker([userLocation.lat, userLocation.lng], {
+        icon: L.divIcon({
+          className: "custom-marker-user",
+          html: "",
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
+        }),
+      });
+
+      marker.bindPopup(`
+        <div class="p-2">
+          <h3 class="font-semibold text-sm">Your Location</h3>
+        </div>
+      `);
+
+      marker.addTo(mapInstanceRef.current);
+      userMarkerRef.current = marker;
+
+      // If we have fountains, fit bounds to show user and nearest fountain
+      if (fountains.length > 0) {
+        let nearestFountain: Fountain | null = null;
+        let shortestDistance = Infinity;
+
+        fountains.forEach((fountain) => {
+          const distance = calculateDistance(
+            userLocation.lat,
+            userLocation.lng,
+            fountain.lat,
+            fountain.lon
+          );
+
+          if (distance < shortestDistance) {
+            shortestDistance = distance;
+            nearestFountain = fountain;
+          }
+        });
+
+        if (nearestFountain) {
+          const bounds = L.latLngBounds([
+            [userLocation.lat, userLocation.lng],
+            [nearestFountain.lat, nearestFountain.lon],
+          ]);
+          mapInstanceRef.current.fitBounds(bounds, { padding: [50, 50] });
+        }
+      }
+    }
+  }, [userLocation, fountains]);
+
+  return <div ref={mapRef} className="h-full w-full" />;
+}
