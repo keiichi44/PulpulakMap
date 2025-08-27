@@ -56,13 +56,34 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
     const style = document.createElement("style");
     style.textContent = `
       .custom-marker-fountain {
-        background: #ea4335;
+        background: #4285f4;
         border: 2px solid #ffffff;
-        border-radius: 50% 50% 50% 0;
-        height: 24px;
-        width: 24px;
-        transform: rotate(-45deg);
+        border-radius: 50%;
+        height: 16px;
+        width: 16px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+      
+      .custom-marker-fountain-nearest {
+        background: #1a73e8;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
+        animation: pulse-nearest 2s infinite;
+      }
+      
+      @keyframes pulse-nearest {
+        0% {
+          box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
+        }
+        50% {
+          box-shadow: 0 3px 12px rgba(26, 115, 232, 1);
+        }
+        100% {
+          box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
+        }
       }
       
       .custom-marker-user {
