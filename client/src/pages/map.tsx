@@ -149,20 +149,6 @@ export default function MapPage() {
           {/* Action Buttons */}
           <div className="flex items-center space-x-3">
             <Button
-              onClick={handleFindNearby}
-              disabled={isGettingLocation || isFountainsLoading}
-              className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-4 py-2"
-              data-testid="button-find-nearby"
-            >
-              {isGettingLocation ? (
-                <Loader2 className="h-4 w-4 mr-2 animate-spin" />
-              ) : (
-                <Navigation className="h-4 w-4 mr-2" />
-              )}
-              <span className="font-medium">Find nearby</span>
-            </Button>
-
-            <Button
               onClick={() => setIsInfoModalOpen(true)}
               variant="secondary"
               className="bg-secondary text-secondary-foreground hover:bg-secondary/80 rounded-full px-4 py-2"
@@ -176,7 +162,7 @@ export default function MapPage() {
       </header>
 
       {/* Main Map Container */}
-      <main className="flex-1 pt-16">
+      <main className="flex-1 pt-16 relative">
         {isFountainsLoading ? (
           <div className="h-full flex items-center justify-center bg-muted">
             <div className="flex items-center space-x-3">
@@ -193,6 +179,27 @@ export default function MapPage() {
             data-testid="map-container"
           />
         )}
+        
+        {/* Floating Find Nearby Button */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-[999]">
+          <Button
+            onClick={handleFindNearby}
+            disabled={isGettingLocation || isFountainsLoading}
+            className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-3 shadow-2xl hover:shadow-3xl transition-all duration-200 font-semibold text-base"
+            style={{ 
+              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.15)',
+              marginBottom: '30px'
+            }}
+            data-testid="button-find-nearby"
+          >
+            {isGettingLocation ? (
+              <Loader2 className="h-5 w-5 mr-2 animate-spin" />
+            ) : (
+              <Navigation className="h-5 w-5 mr-2" />
+            )}
+            <span className="font-bold">Find nearby</span>
+          </Button>
+        </div>
       </main>
 
       {/* Info Modal */}
