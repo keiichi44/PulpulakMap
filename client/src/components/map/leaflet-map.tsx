@@ -104,8 +104,8 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
         icon: L.divIcon({
           className: isNearest ? "custom-marker-fountain-nearest" : "custom-marker-fountain",
           html: "",
-          iconSize: [24, 24],
-          iconAnchor: [12, 24],
+          iconSize: isNearest ? [20, 20] : [16, 16],
+          iconAnchor: isNearest ? [10, 10] : [8, 8],
         }),
       });
       
