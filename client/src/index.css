@@ -108,35 +108,25 @@
   }
 }
 
-/* Leaflet marker styles */
-.custom-marker-fountain {
-  background: #4285f4;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-  height: 16px;
-  width: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+/* Fountain marker styles */
+.fountain-marker {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
 }
 
-.custom-marker-fountain-nearest {
-  background: #1a73e8;
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
-  animation: pulse-nearest 2s infinite;
+.fountain-marker-nearest {
+  filter: drop-shadow(0 3px 8px rgba(26, 115, 232, 0.8)) drop-shadow(0 0 10px rgba(26, 115, 232, 0.4));
+  animation: pulse-glow 2s infinite;
 }
 
-@keyframes pulse-nearest {
+@keyframes pulse-glow {
   0% {
-    box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
+    filter: drop-shadow(0 3px 8px rgba(26, 115, 232, 0.8)) drop-shadow(0 0 10px rgba(26, 115, 232, 0.4));
   }
   50% {
-    box-shadow: 0 3px 12px rgba(26, 115, 232, 1);
+    filter: drop-shadow(0 3px 12px rgba(26, 115, 232, 1)) drop-shadow(0 0 20px rgba(26, 115, 232, 0.8));
   }
   100% {
-    box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
+    filter: drop-shadow(0 3px 8px rgba(26, 115, 232, 0.8)) drop-shadow(0 0 10px rgba(26, 115, 232, 0.4));
   }
 }
 

@@ -4,6 +4,7 @@ import "leaflet/dist/leaflet.css";
 import type { Fountain, UserLocation } from "@/pages/map";
 import type { Route } from "@/services/routing-api";
 import { calculateDistance } from "@/utils/distance";
+import raindropIcon from "../../assets/raindrop-icon.png";
 
 // Fix for default markers in Leaflet with webpack
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -52,57 +53,11 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
 
     mapInstanceRef.current = map;
 
-    // Custom CSS for markers
-    const style = document.createElement("style");
-    style.textContent = `
-      .custom-marker-fountain {
-        background: #4285f4;
-        border: 2px solid #ffffff;
-        border-radius: 50%;
-        height: 16px;
-        width: 16px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      }
-      
-      .custom-marker-fountain-nearest {
-        background: #1a73e8;
-        border: 3px solid #ffffff;
-        border-radius: 50%;
-        height: 20px;
-        width: 20px;
-        box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
-        animation: pulse-nearest 2s infinite;
-      }
-      
-      @keyframes pulse-nearest {
-        0% {
-          box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
-        }
-        50% {
-          box-shadow: 0 3px 12px rgba(26, 115, 232, 1);
-        }
-        100% {
-          box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
-        }
-      }
-      
-      .custom-marker-user {
-        background: #4285f4;
-        border: 3px solid #ffffff;
-        border-radius: 50%;
-        height: 20px;
-        width: 20px;
-        box-shadow: 0 2px 8px rgba(66, 133, 244, 0.4);
-      }
-    `;
-    document.head.appendChild(style);
-
     return () => {
       if (mapInstanceRef.current) {
         mapInstanceRef.current.remove();
         mapInstanceRef.current = null;
       }
-      document.head.removeChild(style);
     };
   }, []);
 
@@ -122,11 +77,12 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       const isNearest = nearestFountain && nearestFountain.id === fountain.id;
       
       const marker = L.marker([fountain.lat, fountain.lon], {
-        icon: L.divIcon({
-          className: isNearest ? "custom-marker-fountain-nearest" : "custom-marker-fountain",
-          html: "",
-          iconSize: isNearest ? [20, 20] : [16, 16],
-          iconAnchor: isNearest ? [10, 10] : [8, 8],
+        icon: L.icon({
+          iconUrl: raindropIcon,
+          iconSize: isNearest ? [24, 24] : [20, 20],
+          iconAnchor: isNearest ? [12, 24] : [10, 20],
+          popupAnchor: [0, isNearest ? -24 : -20],
+          className: isNearest ? "fountain-marker-nearest" : "fountain-marker",
         }),
       });
       
