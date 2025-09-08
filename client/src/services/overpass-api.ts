@@ -44,7 +44,8 @@ export async function fetchDrinkingFountains(): Promise<Fountain[]> {
   } catch (error) {
     console.error("Error fetching drinking fountains:", error);
     
-    // Return fallback fountains for demonstration instead of throwing
+    // Return some fallback fountains for demonstration
+    // In a real app, you might want to throw the error instead
     return [
       {
         id: "1",
@@ -81,28 +82,6 @@ export async function fetchDrinkingFountains(): Promise<Fountain[]> {
         name: "Hrazdan Gorge Fountain",
         tags: { name: "Hrazdan Gorge Fountain" },
       },
-      {
-        id: "6",
-        lat: 40.1912,
-        lon: 44.5089,
-        name: "Circular Park Fountain",
-        tags: { name: "Circular Park Fountain" },
-      },
     ];
   }
-}
-
-function calculateStraightDistance(point1: { lat: number; lng: number }, point2: { lat: number; lng: number }): number {
-  const R = 6371000; // Earth's radius in meters
-  const φ1 = (point1.lat * Math.PI) / 180;
-  const φ2 = (point2.lat * Math.PI) / 180;
-  const Δφ = ((point2.lat - point1.lat) * Math.PI) / 180;
-  const Δλ = ((point2.lng - point1.lng) * Math.PI) / 180;
-
-  const a =
-    Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
-    Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-
-  return R * c;
 }
