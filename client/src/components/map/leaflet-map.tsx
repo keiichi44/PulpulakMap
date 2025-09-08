@@ -4,7 +4,6 @@ import "leaflet/dist/leaflet.css";
 import type { Fountain, UserLocation } from "@/pages/map";
 import type { Route } from "@/services/routing-api";
 import { calculateDistance } from "@/utils/distance";
-import waterDropIcon from "@assets/generated_images/Blue_water_drop_icon_7d553b4f.png";
 
 // Fix for default markers in Leaflet with webpack
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -123,12 +122,11 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       const isNearest = nearestFountain && nearestFountain.id === fountain.id;
       
       const marker = L.marker([fountain.lat, fountain.lon], {
-        icon: L.icon({
-          iconUrl: waterDropIcon,
-          iconSize: isNearest ? [24, 30] : [20, 25],
-          iconAnchor: isNearest ? [12, 30] : [10, 25],
-          popupAnchor: [0, isNearest ? -30 : -25],
-          className: isNearest ? "fountain-marker-nearest" : "fountain-marker",
+        icon: L.divIcon({
+          className: isNearest ? "custom-marker-fountain-nearest" : "custom-marker-fountain",
+          html: "",
+          iconSize: isNearest ? [20, 20] : [16, 16],
+          iconAnchor: isNearest ? [10, 10] : [8, 8],
         }),
       });
       

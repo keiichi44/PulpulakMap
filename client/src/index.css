@@ -108,25 +108,35 @@
   }
 }
 
-/* Leaflet marker styles for water drop icons */
-.fountain-marker {
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+/* Leaflet marker styles */
+.custom-marker-fountain {
+  background: #4285f4;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.fountain-marker-nearest {
-  filter: drop-shadow(0 3px 8px rgba(26, 115, 232, 0.8));
-  animation: glow-nearest 2s infinite ease-in-out;
+.custom-marker-fountain-nearest {
+  background: #1a73e8;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
+  animation: pulse-nearest 2s infinite;
 }
 
-@keyframes glow-nearest {
+@keyframes pulse-nearest {
   0% {
-    filter: drop-shadow(0 3px 8px rgba(26, 115, 232, 0.8));
+    box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
   }
   50% {
-    filter: drop-shadow(0 3px 12px rgba(26, 115, 232, 1)) drop-shadow(0 0 8px rgba(26, 115, 232, 0.6));
+    box-shadow: 0 3px 12px rgba(26, 115, 232, 1);
   }
   100% {
-    filter: drop-shadow(0 3px 8px rgba(26, 115, 232, 0.8));
+    box-shadow: 0 3px 8px rgba(26, 115, 232, 0.6);
   }
 }
 
