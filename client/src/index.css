@@ -149,13 +149,6 @@
   box-shadow: 0 2px 8px rgba(66, 133, 244, 0.4);
 }
 
-/* iOS safe area support */
-@supports (bottom: env(safe-area-inset-bottom)) {
-  html {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
-}
-
 /* Leaflet popup customization */
 .leaflet-popup-content-wrapper {
   @apply bg-background border border-border rounded-lg shadow-lg;
