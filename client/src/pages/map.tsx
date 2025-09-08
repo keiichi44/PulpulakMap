@@ -43,18 +43,22 @@ export default function MapPage() {
   });
 
   const handleFindNearby = async () => {
+    console.log("Starting find nearby...");
     setIsGettingLocation(true);
+    
     // Clear previous route and nearest fountain
     setWalkingRoute(null);
     setNearestFountain(null);
     
     try {
+      console.log("Getting current position...");
       const position = await getCurrentPosition();
       const location = {
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       };
       
+      console.log("Position found:", location);
       setUserLocation(location);
 
       if (fountains.length > 0) {
@@ -76,17 +80,20 @@ export default function MapPage() {
         });
 
         if (nearestFountain) {
+          console.log("Nearest fountain found:", nearestFountain);
           setNearestFountain(nearestFountain);
           
           // Fetch walking route to the nearest fountain  
           const foundFountain = nearestFountain as Fountain;
           try {
+            console.log("Fetching walking route...");
             const route = await fetchWalkingRoute(
               { lat: location.lat, lng: location.lng },
               { lat: foundFountain.lat, lng: foundFountain.lon }
             );
             
             if (route) {
+              console.log("Route found:", route);
               setWalkingRoute(route);
               const walkingTime = Math.round(route.duration / 60);
               toast({
@@ -94,6 +101,7 @@ export default function MapPage() {
                 description: `${Math.round(route.distance)}m away • ${walkingTime} min walk`,
               });
             } else {
+              console.log("No route returned");
               toast({
                 title: "Nearest fountain found!",
                 description: `${Math.round(shortestDistance)}m away`,
@@ -108,9 +116,22 @@ export default function MapPage() {
               description: `${Math.round(shortestDistance)}m away`,
             });
           }
+        } else {
+          console.log("No nearest fountain found");
+          toast({
+            title: "No fountains nearby",
+            description: "No drinking fountains found in the area",
+          });
         }
+      } else {
+        console.log("No fountains available");
+        toast({
+          title: "Loading fountains...",
+          description: "Please wait for fountain data to load",
+        });
       }
     } catch (error) {
+      console.error("Error in handleFindNearby:", error);
       let message = "Unable to get your location";
       if (error instanceof GeolocationPositionError) {
         switch (error.code) {
@@ -132,6 +153,7 @@ export default function MapPage() {
         description: message,
       });
     } finally {
+      console.log("Resetting loading state...");
       setIsGettingLocation(false);
     }
   };
