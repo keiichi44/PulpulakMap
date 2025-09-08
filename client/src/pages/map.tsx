@@ -143,6 +143,11 @@ export default function MapPage() {
         <div className="flex items-center justify-between px-4 py-3 md:px-6">
           {/* Logo */}
           <div className="flex items-center space-x-2">
+            <img 
+              src="https://wiki.openstreetmap.org/w/images/a/a1/Fountain-14.svg" 
+              alt="Fountain icon" 
+              className="h-8 w-8"
+            />
             <div className="text-2xl font-bold">
               <span className="text-primary">Pulpu</span>
               <span className="text-purple-600">luck</span>
