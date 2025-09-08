@@ -181,14 +181,13 @@ export default function MapPage() {
         )}
         
         {/* Floating Find Nearby Button */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-[999]">
+        <div className="absolute bottom-14 md:bottom-8 left-1/2 transform -translate-x-1/2 z-[999]">
           <Button
             onClick={handleFindNearby}
             disabled={isGettingLocation || isFountainsLoading}
-            className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-3 shadow-2xl hover:shadow-3xl transition-all duration-200 font-semibold text-base"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-6 py-3 shadow-2xl hover:shadow-3xl transition-all duration-200 font-semibold text-base mb-5 md:mb-8"
             style={{ 
-              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.15)',
-              marginBottom: '30px'
+              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.15)'
             }}
             data-testid="button-find-nearby"
           >
