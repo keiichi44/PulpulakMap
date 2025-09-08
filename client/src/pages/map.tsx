@@ -143,7 +143,10 @@ export default function MapPage() {
         <div className="flex items-center justify-between px-4 py-3 md:px-6">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary">Pulpuluck</div>
+            <div className="text-2xl font-bold">
+              <span className="text-primary">Pulpu</span>
+              <span className="text-purple-600">luck</span>
+            </div>
           </div>
 
           {/* Action Buttons */}
