@@ -24,13 +24,29 @@ export async function fetchWalkingRoute(
     // Build API URL with proper parameters for pedestrian routing
     const url = `${OSRM_API_URL}/${startCoord};${endCoord}?geometries=geojson&overview=full&steps=false`;
     
-    const response = await fetch(url);
+    console.log("Requesting route from:", url);
+    
+    // Create an AbortController for timeout
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 8000); // 8 second timeout
+    
+    const response = await fetch(url, { 
+      signal: controller.signal,
+      headers: {
+        'Accept': 'application/json',
+      }
+    });
+    
+    clearTimeout(timeoutId);
     
     if (!response.ok) {
       throw new Error(`OSRM API error: ${response.status}`);
     }
     
+    console.log("Route response received");
+    
     const data = await response.json();
+    console.log("Route data parsed:", data);
     
     if (!data.routes || data.routes.length === 0) {
       console.warn("No routes found between the points");
@@ -38,6 +54,7 @@ export async function fetchWalkingRoute(
     }
     
     const route = data.routes[0];
+    console.log("Processing route with", route.geometry.coordinates.length, "coordinates");
     
     // Convert GeoJSON coordinates to our RoutePoint format
     // OSRM returns coordinates as [longitude, latitude] arrays
@@ -48,11 +65,15 @@ export async function fetchWalkingRoute(
       })
     );
     
-    return {
+    const result = {
       coordinates,
       distance: Math.round(route.distance), // OSRM returns distance in meters
       duration: Math.round(route.duration), // OSRM returns duration in seconds
     };
+    
+    console.log("Returning route result:", result);
+    return result;
+    
   } catch (error) {
     console.error("Error fetching walking route:", error);
     
@@ -60,6 +81,7 @@ export async function fetchWalkingRoute(
     const straightDistance = calculateStraightDistance(start, end);
     const fallbackCoordinates = [start, end];
     
+    console.log("Using fallback route");
     return {
       coordinates: fallbackCoordinates,
       distance: Math.round(straightDistance),
