@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Check, X } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import pulpulakImage from "@assets/Pulpulak_1758138201916.jpg";
 
 interface InfoModalProps {
   isOpen: boolean;
@@ -7,55 +9,200 @@ interface InfoModalProps {
 }
 
 export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
   if (!isOpen) return null;
+
+  const nextSlide = () => {
+    if (currentSlide < 2) {
+      setCurrentSlide(currentSlide + 1);
+    }
+  };
+
+  const prevSlide = () => {
+    if (currentSlide > 0) {
+      setCurrentSlide(currentSlide - 1);
+    }
+  };
+
+  const handleClose = () => {
+    setCurrentSlide(0);
+    onClose();
+  };
+
+  const renderSlide = () => {
+    switch (currentSlide) {
+      case 0:
+        return (
+          <div className="flex flex-col md:flex-row items-start gap-6 p-6">
+            {/* Image on the left */}
+            <div className="w-full md:w-1/2 flex-shrink-0">
+              <img 
+                src={pulpulakImage} 
+                alt="Pulpulak water fountain"
+                className="w-full h-48 md:h-64 object-cover rounded-lg"
+                data-testid="img-pulpulak"
+              />
+            </div>
+            
+            {/* Content on the right */}
+            <div className="w-full md:w-1/2 space-y-4">
+              <h2 className="text-xl font-bold text-gray-900" data-testid="text-slide1-header">
+                Pulpulak brings you luck!
+              </h2>
+              
+              <p className="text-sm text-gray-700 leading-relaxed" data-testid="text-slide1-content">
+                Welcome to the interactive map of Pulpulaks across Yerevan! Pulpulak is a free drinking fountain and a beloved cultural icon of Armenia. Although this service is still in development, I'm dedicated to offering you a smooth and easy way to explore the world of pulpulaks!
+              </p>
+            </div>
+          </div>
+        );
+        
+      case 1:
+        return (
+          <div className="p-6 space-y-4">
+            <h2 className="text-xl font-bold text-gray-900 mb-4" data-testid="text-slide2-header">
+              What is Pulpulak?
+            </h2>
+            
+            <div className="space-y-4" data-testid="text-slide2-content">
+              <p className="text-sm text-gray-700 leading-relaxed">
+                A pulpulak is a public water fountain common in Armenia and in the former Armenian-populated Republic of Artsakh.
+              </p>
+              
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Pulpulaks were, and still are, often used by people to arrange meetings and by couples as dating locations. Pulpulaks are small, usually one meter tall, stone memorials with running water, often fed by a mountain spring.
+              </p>
+              
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Some pulpulaks are erected in memory of dead relatives. In drinking from a memorial pulpulak, passersby give their blessing to the person in memory of whom it is constructed.
+              </p>
+            </div>
+          </div>
+        );
+        
+      case 2:
+        return (
+          <div className="p-6 space-y-4">
+            <h2 className="text-xl font-bold text-gray-900 mb-4" data-testid="text-slide3-header">
+              FAQ Pulpulak
+            </h2>
+            
+            <div className="max-h-80 overflow-y-auto space-y-4 pr-2" data-testid="text-slide3-content">
+              <div className="space-y-3">
+                <div>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2">
+                    Is it safe to drink from pulpulaks?
+                  </h3>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    Well, it's basically safe. The water in Yerevan is clean and safe to drink. The water from mountain springs has few impurities and is regularly tested.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2">
+                    Do animals drink from pulpulaks? Can I catch something?
+                  </h3>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    Yes, animals and birds can drink from pulpulaks. But it is safe for humans because the water does not circulate but is constantly renewed. However, try not to touch the water tap.
+                  </p>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2">
+                    So, is the water being wasted? Who is paying for this?
+                  </h3>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    Yes, most pulpulaks are like an open tap. However, the water pressure is low, resulting in minimal water waste. Nevertheless, in most cases, it does go down the drain. And Armenian taxpayers are paying for it. Isn't that a reason to drink more from pulpulaks?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        );
+        
+      default:
+        return null;
+    }
+  };
 
   return (
     <div 
       className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
       style={{ zIndex: 1200 }}
-      onClick={onClose}
+      onClick={handleClose}
     >
       <div 
-        className="bg-background border rounded-lg shadow-lg max-w-md w-full max-h-[80vh] overflow-y-auto"
+        className="bg-white border rounded-lg shadow-lg max-w-2xl w-full max-h-[90vh] overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b">
-          <h2 className="text-lg font-semibold">What is a Pulpulak?</h2>
+        {/* Header with close button */}
+        <div className="flex items-center justify-end p-4 border-b">
           <button
-            onClick={onClose}
-            className="rounded-sm opacity-70 hover:opacity-100 transition-opacity"
+            onClick={handleClose}
+            className="rounded-sm opacity-70 hover:opacity-100 transition-opacity p-1 hover:bg-gray-100"
             data-testid="button-close-modal-x"
           >
-            <X className="h-4 w-4" />
+            <X className="h-5 w-5" />
           </button>
         </div>
         
-        {/* Content */}
-        <div className="p-6 space-y-4 text-muted-foreground">
-          <p className="text-sm leading-relaxed">
-            A pulpulak (Armenian: պուլպուլակ, Armenian pronunciation: [pulpuˈlɑk]) is a public water fountain common in Armenia and in the former Armenian-populated Republic of Artsakh. Pulpulaks are a significant part of Armenian culture, and first appeared on the streets of Yerevan in the 1920s before becoming extremely popular.
-          </p>
-          
-          <p className="text-sm leading-relaxed">
-            Pulpulaks were, and still are, often used by people to arrange meetings and by couples as dating locations. Pulpulaks are small, usually one meter tall, stone memorials with running water, often fed by a mountain spring.
-          </p>
-          
-          <p className="text-sm leading-relaxed">
-            Some pulpulaks are erected in memory of dead relatives. In drinking from a memorial pulpulak, passersby give their blessing to the person in memory of whom it is constructed.
-          </p>
+        {/* Slide content */}
+        <div className="min-h-[400px]">
+          {renderSlide()}
         </div>
         
-        {/* Footer */}
-        <div className="p-6 pt-0">
-          <Button
-            onClick={onClose}
-            className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-            data-testid="button-close-modal"
-          >
-            <Check className="h-4 w-4 mr-2" />
-            Got it!
-          </Button>
+        {/* Navigation footer */}
+        <div className="flex items-center justify-between p-6 border-t bg-gray-50">
+          {/* Slide indicators */}
+          <div className="flex items-center space-x-2">
+            {[0, 1, 2].map((index) => (
+              <div
+                key={index}
+                className={`h-2 w-2 rounded-full transition-all ${
+                  index === currentSlide ? 'bg-blue-600 w-6' : 'bg-gray-300'
+                }`}
+                data-testid={`indicator-slide-${index}`}
+              />
+            ))}
+          </div>
+          
+          {/* Navigation buttons */}
+          <div className="flex items-center space-x-3">
+            {currentSlide > 0 && (
+              <Button
+                onClick={prevSlide}
+                variant="outline"
+                size="sm"
+                className="flex items-center"
+                data-testid="button-prev"
+              >
+                <ChevronLeft className="h-4 w-4 mr-1" />
+                Back
+              </Button>
+            )}
+            
+            {currentSlide < 2 ? (
+              <Button
+                onClick={nextSlide}
+                size="sm"
+                className="bg-blue-600 hover:bg-blue-700 text-white"
+                data-testid="button-next"
+              >
+                Next
+                <ChevronRight className="h-4 w-4 ml-1" />
+              </Button>
+            ) : (
+              <Button
+                onClick={handleClose}
+                size="sm"
+                className="bg-green-600 hover:bg-green-700 text-white"
+                data-testid="button-done"
+              >
+                Done
+              </Button>
+            )}
+          </div>
         </div>
       </div>
     </div>
