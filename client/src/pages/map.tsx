@@ -31,6 +31,20 @@ export default function MapPage() {
   const [nearestFountain, setNearestFountain] = useState<Fountain | null>(null);
   const { toast } = useToast();
 
+  // Check if this is the first visit and auto-open modal for new users
+  useEffect(() => {
+    const hasSeenOnboarding = localStorage.getItem('pulpuluck-hasSeenOnboarding');
+    if (!hasSeenOnboarding) {
+      setIsInfoModalOpen(true);
+    }
+  }, []);
+
+  // Handle modal close and mark onboarding as seen
+  const handleInfoModalClose = () => {
+    localStorage.setItem('pulpuluck-hasSeenOnboarding', 'true');
+    setIsInfoModalOpen(false);
+  };
+
   const {
     data: fountains = [],
     isLoading: isFountainsLoading,
@@ -212,7 +226,7 @@ export default function MapPage() {
       {/* Info Modal */}
       <InfoModal
         isOpen={isInfoModalOpen}
-        onClose={() => setIsInfoModalOpen(false)}
+        onClose={handleInfoModalClose}
       />
     </div>
   );
