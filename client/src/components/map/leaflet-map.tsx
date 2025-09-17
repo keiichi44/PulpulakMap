@@ -130,20 +130,74 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
         }),
       });
       
+      // Get the best available name (prioritize English name)
+      const englishName = fountain.tags?.["name:en"];
+      const localName = fountain.name || fountain.tags?.name;
+      const displayName = englishName || localName || "Public water fountain";
+      const hasMultipleNames = englishName && localName && englishName !== localName;
+      
+      // Get image URL if available
+      let imageUrl = fountain.tags?.image || fountain.tags?.wikimedia_commons;
+      if (fountain.tags?.wikimedia_commons && !fountain.tags.wikimedia_commons.startsWith('http')) {
+        // Convert Wikimedia Commons filename to URL
+        const filename = fountain.tags.wikimedia_commons.replace(/^File:/, '');
+        imageUrl = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=300`;
+      }
+      
       const popupContent = `
-        <div class="p-2">
-          <h3 class="font-semibold text-sm mb-1">${isNearest ? "🎯 Nearest Fountain" : "Drinking Fountain"}</h3>
-          <p class="text-xs text-muted-foreground">${
-            fountain.name || fountain.tags?.name || "Public water fountain"
-          }</p>
-          ${
-            userLocation
-              ? `<p class="text-xs mt-1">Distance: ${Math.round(
-                  calculateDistance(userLocation.lat, userLocation.lng, fountain.lat, fountain.lon)
-                )}m</p>`
-              : ""
-          }
-          ${isNearest && walkingRoute ? `<p class="text-xs mt-1 text-blue-600 font-medium">📍 Route shown in blue</p>` : ""}
+        <div class="p-3 min-w-[200px] max-w-[280px]">
+          ${imageUrl ? `
+            <img src="${imageUrl}" 
+                 alt="Fountain image" 
+                 class="w-full h-24 object-cover rounded-md mb-2"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                 style="display: block;" />
+            <div style="display: none; background-color: #f3f4f6; border: 2px dashed #d1d5db; border-radius: 6px; padding: 12px; margin-bottom: 8px; text-align: center; color: #6b7280; font-size: 11px;">
+              📷 Image unavailable
+            </div>
+          ` : ''}
+          
+          <h3 class="font-semibold text-sm mb-1 text-gray-900">${isNearest ? "🎯 Nearest Fountain" : "🚰 Drinking Fountain"}</h3>
+          
+          <div class="mb-2">
+            <p class="text-sm font-medium text-gray-800 leading-tight">${displayName}</p>
+            ${hasMultipleNames ? `<p class="text-xs text-gray-600 mt-1 italic">${localName}</p>` : ''}
+          </div>
+          
+          <div class="text-xs text-gray-600 space-y-1">
+            ${userLocation ? `
+              <p class="flex items-center">
+                <span class="mr-1">📍</span>
+                Distance: ${Math.round(calculateDistance(userLocation.lat, userLocation.lng, fountain.lat, fountain.lon))}m
+              </p>
+            ` : ''}
+            
+            ${isNearest && walkingRoute ? `
+              <p class="text-blue-600 font-medium flex items-center">
+                <span class="mr-1">🗺️</span>
+                Route shown in blue
+              </p>
+            ` : ''}
+            
+            ${fountain.tags?.access ? `
+              <p class="flex items-center">
+                <span class="mr-1">🔓</span>
+                Access: ${fountain.tags.access}
+              </p>
+            ` : ''}
+            
+            ${fountain.tags?.fee === 'no' ? `
+              <p class="flex items-center text-green-600">
+                <span class="mr-1">💚</span>
+                Free to use
+              </p>
+            ` : fountain.tags?.fee === 'yes' ? `
+              <p class="flex items-center text-amber-600">
+                <span class="mr-1">💰</span>
+                Fee required
+              </p>
+            ` : ''}
+          </div>
         </div>
       `;
 
