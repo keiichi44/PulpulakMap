@@ -136,8 +136,23 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
         className="bg-white border rounded-lg shadow-lg max-w-2xl w-full max-h-[90vh] overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header with close button */}
-        <div className="flex items-center justify-end p-4 border-b">
+        {/* Header with logo and close button */}
+        <div className="flex items-center justify-between p-4 border-b">
+          {/* Logo and title */}
+          <div className="flex items-center space-x-2">
+            <img 
+              src="https://wiki.openstreetmap.org/w/images/a/a1/Fountain-14.svg" 
+              alt="Fountain icon" 
+              className="h-6 w-6"
+              data-testid="img-logo"
+            />
+            <div className="text-lg font-bold">
+              <span className="text-primary">Pulpu</span>
+              <span className="text-purple-600">luck</span>
+            </div>
+          </div>
+          
+          {/* Close button */}
           <button
             onClick={handleClose}
             className="rounded-sm opacity-70 hover:opacity-100 transition-opacity p-1 hover:bg-gray-100"
