@@ -185,18 +185,6 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
                 Access: ${fountain.tags.access}
               </p>
             ` : ''}
-            
-            ${fountain.tags?.fee === 'no' ? `
-              <p class="flex items-center text-green-600">
-                <span class="mr-1">💚</span>
-                Free to use
-              </p>
-            ` : fountain.tags?.fee === 'yes' ? `
-              <p class="flex items-center text-amber-600">
-                <span class="mr-1">💰</span>
-                Fee required
-              </p>
-            ` : ''}
           </div>
         </div>
       `;
