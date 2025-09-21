@@ -52,7 +52,8 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
               </h2>
               
               <p className="text-sm text-gray-700 leading-relaxed" data-testid="text-slide1-content">
-                Welcome to the interactive map of Pulpulaks across Yerevan! Pulpulak is a free drinking fountain and a beloved cultural icon of Armenia. Although this service is still in development, I'm dedicated to offering you a smooth and easy way to explore the world of pulpulaks!
+                Welcome to the interactive map of Pulpulaks across Yerevan! Pulpulak is a free drinking fountain and a beloved cultural icon of Armenia. 
+                This service uses OpenStreetMap data to provide a comprehensive list of locations. However, it is still in preview mode, so feel free to <a href="mailto:keiichi44@gmail.com" className="text-blue-600 hover:text-blue-800 underline">email</a> me with any suggestions.
               </p>
             </div>
           </div>
