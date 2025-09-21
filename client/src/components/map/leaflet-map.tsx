@@ -237,6 +237,7 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
   // Set up global callback for fountain reporting
   useEffect(() => {
     (window as any).reportFountain = (fountainId: string, fountainName: string) => {
+      console.log('Global reportFountain called with:', fountainId, fountainName);
       onReportClick(fountainId, fountainName);
     };
 
