@@ -93,10 +93,19 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
               <div className="space-y-3">
                 <div>
                   <h3 className="font-semibold text-gray-900 text-sm mb-2">
+                    What does the name "Pulpulak" mean?
+                  </h3>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    This name is onomatopoeic - it sounds like the water running from the tap. Try listening closely, and you'll notice it.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2">
                     Is it safe to drink from pulpulaks?
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Well, it's basically safe. The water in Yerevan is clean and safe to drink. The water from mountain springs has few impurities and is regularly tested.
+                    Well, it's generally safe. The water in Yerevan is clean and safe to drink. It comes from mountain springs, has few impurities, and is regularly tested.
                   </p>
                 </div>
                 
@@ -105,7 +114,7 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
                     Do animals drink from pulpulaks? Can I catch something?
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
-                    Yes, animals and birds can drink from pulpulaks. But it is safe for humans because the water does not circulate but is constantly renewed. However, try not to touch the water tap.
+                    Yes, animals and birds can drink from pulpulaks. However, it is safe for humans because the water does not circulate but is constantly renewed. The only recommendation is not to touch the water tap.
                   </p>
                 </div>
                 
@@ -115,6 +124,15 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
                   </h3>
                   <p className="text-sm text-gray-700 leading-relaxed">
                     Yes, most pulpulaks are like an open tap. However, the water pressure is low, resulting in minimal water waste. Nevertheless, in most cases, it does go down the drain. And Armenian taxpayers are paying for it. Isn't that a reason to drink more from pulpulaks?
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2">
+                    I have found a new pulpulak which is not on the map. How can I add it?
+                  </h3>
+                  <p className="text-sm text-gray-700 leading-relaxed">
+                    Since we are using OpenStreetMap data, the only way right now is to sign up for OSM (<a href="https://www.openstreetmap.org/user/new" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">link</a>) and click the "Edit" button to access the visual map editor. You can add a pulpulak there (Public services - Drinking water), and it will be displayed here immediately.
                   </p>
                 </div>
               </div>
