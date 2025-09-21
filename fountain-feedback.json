@@ -1,0 +1,7754 @@
+[
+  {
+    "fountainId": "612588842",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "614334755",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "631461897",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "631461898",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "631461901",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "631461902",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "631461903",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "663429309",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "614334815",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "614334819",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "663429310",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "614334757",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "614352792",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "663429311",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "703779191",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "666450773",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "703779256",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "703779271",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "703779303",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "703779317",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "704043413",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1360164686",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1360164269",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1360167926",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1400877529",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1533958876",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1957100018",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1957102084",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "1957102178",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2007035048",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2279292581",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2294865585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2295985985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2300206192",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2333116397",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2379507899",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2815883533",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2823860016",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2874545177",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2916445340",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2921784870",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993989904",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993989919",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993990141",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993996681",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993992837",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993997295",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "2993997306",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3048433273",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3048691560",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3098526367",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3098529029",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870337",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870338",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870339",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870340",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870341",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870342",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3112870343",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3329720158",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3370901675",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3491390339",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3499090731",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3499091288",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3499092232",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3499093263",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3499094098",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3499094115",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3500427545",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3549854931",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3559322217",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3575334501",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3575346563",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3580607503",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3587869953",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3613316433",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3666745726",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3820723793",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3839031482",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "3842278318",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4089562058",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4089735282",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4090473471",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4101295989",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4101939106",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110080090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110082690",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110084189",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110399045",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110482190",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110482192",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4110482199",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4111537729",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4115971589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4131663087",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4131663088",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4132947389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4141872210",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4158863290",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4212057395",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4213564111",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4213564110",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4213564112",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4213564113",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4213564123",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4226922307",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4232095489",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4232393587",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4235174914",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4235315767",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4235315768",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4235315769",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4235315770",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4237884683",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4247213409",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4250488801",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4250571451",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4269586794",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4269587490",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4269587491",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4283586004",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4283990692",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4284016089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4285407094",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4285757390",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4292223590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4292223591",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4292223592",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4292592486",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4295655958",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4299019799",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4299019894",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4299047490",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4299068193",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4299146489",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4299146491",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4304862790",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4304862791",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4313643389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4313712798",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4313942466",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4317602389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4317972490",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4317976792",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4321947394",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4321947395",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4321951196",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4321951197",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329328394",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329412613",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329458689",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329458867",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329570190",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329591390",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329591391",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329591392",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4329604793",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4335201016",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4336112701",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4336619589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4336628389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4336885190",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4337619491",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4338012989",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4338190396",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4338199799",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4339499889",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4339551389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4340314089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4340340290",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4340353689",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4340833493",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4341346008",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4345633292",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4345678689",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4345678889",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4346351935",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4346352317",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4346516501",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4349968491",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4350648196",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4352126990",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4353543590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4353546690",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4354617890",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4356592501",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4356610402",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4361700592",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4361805791",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4361807493",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4362372100",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4362396593",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4364472398",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4364513091",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4365155589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4365444292",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4367706697",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4368517089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4368819290",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4368828492",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4368828697",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4370163429",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4370176539",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4370340991",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4371078813",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4372035899",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4372110192",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4372110193",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4372111290",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4373172189",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4373993692",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4379626371",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4380160892",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4382942391",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4382955590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4382967389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4382967489",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4383479641",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4388476989",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4388476990",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4394644398",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395228989",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395229189",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395772650",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395772651",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395775819",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395801984",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395801985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395801986",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4395801987",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4396039289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4400067889",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4404961389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4409044096",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4412801991",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4417429292",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4428433789",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4428436191",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4428740310",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4430968881",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4430976446",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4430988765",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4438706292",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4440815194",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4440863089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4449782890",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4449783990",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4449835589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4457765994",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4457814289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4458238289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4460307748",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4462603158",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4462652289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4462974991",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4462975090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4462975091",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4463011589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4463011789",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4465412292",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4468606293",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4468606491",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4471882490",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4479867591",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4482082590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4485841591",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4491220356",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4491220357",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4491220358",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4500811693",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4500820005",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4506000089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4508460095",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4508460096",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4517779691",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4541695495",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4541729389",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4549378737",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4568494312",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4568494313",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4568494314",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4579042891",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4582851787",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4583534189",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4585131794",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4585221989",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4596786189",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4618392789",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4628972189",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4628972289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4628972589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4648281990",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4654492589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4661377995",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4661436991",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4661436992",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4661436993",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4661437190",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4661438589",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4668715079",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4668715080",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4669675417",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4673069109",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4674974493",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4674974497",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4676745726",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4682099236",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4682211889",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4683972510",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4738782623",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4739956841",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4744846122",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4760033323",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4769070329",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4776531722",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4782671123",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4784657411",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4784657436",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4785822023",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4785823822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4791821123",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4791821124",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4791934823",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4791945524",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4792352822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4795312821",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4795312826",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4796151622",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4796616824",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4799200322",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4799230421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4799230526",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4804307594",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4804308050",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4809257322",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4812950821",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4812950921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4812950922",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4812950923",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4812951021",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4813825722",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4813825823",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4816040622",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4817862021",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4831043521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4852196922",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885695723",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885746126",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885746127",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885746128",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885746129",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885770423",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885770424",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885770425",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885778021",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4885778321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4918155023",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4933291724",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4939190725",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4939192522",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4939192523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942783123",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817621",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817624",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817625",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817722",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942817822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942830221",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942830222",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942830223",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4942857321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4943010321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4943031421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4944822923",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4950590321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4952369824",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4952369825",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4952482671",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4952482676",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4952482677",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4952482682",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4968223721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4968520421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4968520521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4969329421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4969329422",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4975469002",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4978967103",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4978967104",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4978967105",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4985428221",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4993826722",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4993828721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4998307605",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4998307606",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4998307656",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "4998307657",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5009692121",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5013377523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5013377621",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5013377622",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5013377821",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5013377921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5022519924",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5024119622",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5025437129",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5029076592",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5030863803",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5031078721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5031626723",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5033067022",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5035073522",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5035091821",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5043830822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5043830823",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5052071727",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5052107421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5052107521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5062665331",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5062685822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5065986823",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5077129430",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5077139622",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5089494323",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5088214624",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5141854523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5141854524",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5141854525",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5149222222",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5167751621",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5181937652",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5191101880",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5202844321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5203627033",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5210298027",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5211916159",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5224606002",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5235167856",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5258264532",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5258271523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5277752321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5283681523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5283547521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5285665825",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5299447480",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5299476983",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5299476984",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5300823822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5300823823",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5300827921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5341632621",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5345296927",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5345297224",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5345297225",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5345297423",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5345304721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5345307221",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5357620725",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5402368521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5459242236",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5413919521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5413916722",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5476952421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5484228072",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5487196324",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5516084130",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5619162222",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5573277321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5619163721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5620165121",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5621248521",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5621343721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5624327921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5624328121",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5624328321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5624328322",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5624328324",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5624328421",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5627093921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5629496822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5647652721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5654081024",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5656993021",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5656993121",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5656993122",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5659254648",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5710480821",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5737301621",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5737301721",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5747793909",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5747793910",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5747793911",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5778390955",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5778400653",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5778400654",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5806984053",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5809134854",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5812731979",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5814495954",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5815882097",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5820580555",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5826709785",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5854205186",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5898691985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5909862791",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5909865285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5928677287",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5931312685",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5940681285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5947202885",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5964598587",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5964598588",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "5964610786",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6027252892",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6035871303",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6035885172",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6035885274",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6038695563",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6038695564",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6090942185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6109995985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6109969887",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6109995987",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6170701794",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6346654585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6346657948",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6346658916",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6346672725",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6356015988",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6374116530",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6399288331",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6443226061",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6442744947",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6443226062",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6443226063",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6443226064",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6443226065",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6443226066",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6445241054",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6466224185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6467425585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6476905866",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6483907298",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6585992386",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6533015086",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6587757085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6609167094",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6618511486",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6618542285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6640272183",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6648229285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6659492885",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6659492987",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6659494785",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6673606424",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6680895885",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6695571586",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6695571685",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6695571785",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6720002241",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6720018612",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6721251885",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6721251886",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6721251985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6751880085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6751880086",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6751880285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6766666587",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6771116685",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6852358285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6853408246",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6867715605",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6880918143",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6895679875",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6929715086",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6933846185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936973086",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936973087",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936973088",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936973089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936973090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936973186",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936975786",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936976585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936976385",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6947603985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6936976586",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "6976564385",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7068156485",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7068156486",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7068156585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7068156685",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7068156686",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7076383285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7076383286",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7076383485",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7096531185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7096531385",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7160400486",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7194974286",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7272853585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7294854730",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7354838385",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7354896585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7354838485",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7365950785",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7366595185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7424908802",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7444083986",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7444083987",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7477001498",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7508815185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7528315585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7700734985",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7770925076",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7770925077",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7825942085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7825942185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7835217685",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7876355786",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7876361285",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7904312085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7906118085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "7906118185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8067828085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8294890930",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8446946017",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8805317417",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8496615020",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8852665417",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "8930401791",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9086514435",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9086514436",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9217343617",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9516550242",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9364875017",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9622386113",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9624302410",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9624306225",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9631223477",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9631957710",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9633238485",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647025165",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647025204",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647025227",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647025233",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647025290",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647025315",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9647857348",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9649624864",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9649624945",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9649624999",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9649625130",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9652867637",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9656327371",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9656327375",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9656327403",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9671930766",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9682732133",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9688391387",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9695041917",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9703573333",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9705025333",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9705037653",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9705717447",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9711402088",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9711412729",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9713739056",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9722561748",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9726399517",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9727499511",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9730301892",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9752147057",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9754612008",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9754612012",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9761503514",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9776643869",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598550",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598555",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598558",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598559",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598561",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598568",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598581",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9787598582",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9790644946",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9799756366",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9799756367",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9799756368",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9803248935",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9806762921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9811337075",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9811825917",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9822505526",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9822509138",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9833897339",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9842777417",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9843137473",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9862857124",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9862857125",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9879133751",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9866532658",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9882345344",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9883610321",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9883610323",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9903309111",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9946807462",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "9942252917",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10003559978",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10058345938",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10061968252",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10067262883",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10067262884",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10067262885",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10075025030",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10090119662",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10090119665",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10096261520",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10096261523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10101733917",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10109883819",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10122756590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10123504303",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10123547188",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10123800368",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10139495675",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10162186167",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10180391164",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10189429568",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10189643857",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10233554250",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10236198305",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10236198306",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10240621909",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10286257087",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10286993249",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10296702489",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10296702490",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10308320819",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10308320820",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10536702023",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10537472599",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542612451",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542612452",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542612453",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542624520",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542624522",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542624523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10542624525",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10572312184",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10574349720",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10572312185",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10592468305",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10596331509",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10606209777",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10610333188",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10656813127",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10688502405",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10690709105",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10691225507",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10691269506",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10691339305",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10700163864",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10722175906",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10722176906",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10722176907",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10734169294",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10740803818",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10750058596",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10757272536",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10757272537",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10765460617",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10767849959",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10770488722",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10771307888",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10774751635",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10774751686",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10786728728",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10796137206",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10810556034",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10816025278",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10816025275",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10827521005",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10860106505",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10870415297",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10864136973",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10871115153",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875270181",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875289813",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875289816",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875289818",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875289826",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875289870",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10875289830",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10878515597",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374818",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374821",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374827",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374831",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374835",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374837",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10887374850",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10905934863",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10911869241",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10911869244",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10913718381",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10916150756",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10916176396",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10916176400",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10927284012",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10919659897",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10916176403",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10919498221",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10931731207",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10931731218",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10931731222",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10951676536",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10948937628",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10969840707",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10951676534",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10969841008",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10969847805",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10973605850",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977025587",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10974103534",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977025588",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977025590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977025592",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977066886",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977638374",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10977638380",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10983742371",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10981686247",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995386575",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995579243",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995579248",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995579250",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995579261",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995579263",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995778119",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995778140",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "10995779087",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11021775412",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11030733560",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11035348009",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11035348010",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11035348011",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11035441099",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11035455089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11035455106",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11040330582",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11042190523",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11043051911",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11067616205",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11067730798",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11067730799",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11071566539",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11076076402",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11076076404",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11076095705",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11076095738",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11080733120",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11080739505",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11085004357",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11085004355",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11094519440",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11096375879",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11116958395",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11118898994",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11138376895",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11140805707",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11140814505",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11140814605",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11141809206",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11141809207",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11141810205",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11141810005",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11148128607",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11164721268",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11169240491",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11169520337",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11170599168",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11170599219",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11211049021",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11218765629",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11221278750",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11230958410",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11252875699",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11264838833",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11279572441",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11288119625",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11288119629",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11291330269",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11302208935",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11307869351",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11308664289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11362701792",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11383087710",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11394697769",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11394697774",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11403625007",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11473057731",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11473057732",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11476326439",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11483779697",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11493918396",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11494153506",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11495546096",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11500849358",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11512229918",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11559347826",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11656835642",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143152",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143153",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143154",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143155",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143156",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143158",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11657143157",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11663463570",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11664661413",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11670544538",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11670544542",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11682764240",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11696931630",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11711292183",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11711292184",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11716516831",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11716516858",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11720918194",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11720918199",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11727849856",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11737639936",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024649",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024650",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024651",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024653",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024660",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024661",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024669",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024670",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024680",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024686",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024690",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024701",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024762",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11738024763",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11745938946",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11760532256",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11760532265",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11765127515",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11779181741",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11796306845",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807539351",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807539352",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807539355",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807541870",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807541871",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807541875",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807541878",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11807541925",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11813898575",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11813898588",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11813898602",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11814341964",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11817804025",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11843207816",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11843231558",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11843238669",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11843245773",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11844865794",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11849611025",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11865922932",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11862886672",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11865922933",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11869113032",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11869405585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11869405586",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11873599991",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11873599993",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11873805490",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11873974420",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11883007038",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11887344106",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128007",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128002",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889127996",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128011",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128018",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128031",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128054",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128064",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128056",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889128065",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139377",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139384",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139395",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139420",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139430",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139436",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139437",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11889139445",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11891518180",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11910413428",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11915799669",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11915855569",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11915867869",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174425",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174433",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174435",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174449",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174461",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174465",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916174468",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181874",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181879",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181883",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181891",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181894",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181899",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181904",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181915",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181917",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181925",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181932",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916181947",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916195270",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916196070",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11916297769",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11925650094",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11935452594",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11936956528",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11936956530",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11936956535",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11936956541",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11936956545",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11945693424",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11964911965",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11966747471",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11976547752",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11982827569",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11983101369",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11989876769",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "11990073429",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12006265172",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12006265569",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12012352069",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12015277395",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12015277396",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12015277407",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12015277409",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12015277410",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12018662883",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12018662884",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12031029675",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12037185995",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12047546791",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12043387568",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12052828886",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12057649784",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12061689963",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12062535368",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12077078221",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12104433257",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12113558075",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12136469293",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12136519442",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12136519443",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12137401064",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12143094585",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12147674295",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12149896242",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12164554495",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12167186851",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12167186889",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12171187014",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12172071176",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12189762001",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12230110035",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12230110060",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237288872",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237304541",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237288874",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237304542",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237304544",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237304551",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12237304552",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12250254105",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12250254142",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12268871259",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12268871260",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12268871261",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12282715909",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285178282",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285168455",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285194971",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285196263",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285197296",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285202322",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285230522",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285266996",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285215788",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285278427",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285360386",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285398855",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285521283",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285522692",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285529016",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12285529822",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12286138204",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12286142334",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12288147339",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12288191493",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12296944443",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12300313693",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12299556179",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12305184814",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12305184815",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12306896385",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12320787525",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12323984517",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12323984538",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12327636875",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12330357090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12334340726",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12338801158",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12339316715",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12360446289",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12372904705",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12372904748",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12372904776",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12382736733",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12391313166",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12391313174",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12403025561",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12403544397",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12427774621",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12436968690",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12438568789",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12438844660",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12438844663",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12442548658",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12452279760",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12456027921",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12456027930",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12456027940",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12467186197",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12477897445",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12484953170",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12509892975",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12512987806",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12512987807",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12513354949",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12513357085",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12513357086",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12513357089",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12513357090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12531729067",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12531729088",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12531734401",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12532926149",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12535175554",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12536969548",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12552966240",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595351",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595352",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595381",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595382",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595400",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595406",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12648595408",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12650798825",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12658289227",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12669103029",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12694730657",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12694730658",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12700829148",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12700829149",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12706031333",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12706031332",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12706031334",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12724467944",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12743543471",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12745724101",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12755595770",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12760603131",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12760603135",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12768441087",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12768491604",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12768491605",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12769269590",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12770794575",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771035050",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771046626",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771046683",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771046684",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771208903",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771046691",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12771208904",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12773367243",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12784116606",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12784722695",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12790567758",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12790567759",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12797147153",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12797472090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12802042599",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12804346302",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805804201",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805812701",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805835301",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805835501",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805922701",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805958801",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12805987201",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12806096501",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12806119601",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12806145901",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12806251101",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12806397202",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12806397602",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12809248801",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12811102477",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12815693859",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12823608193",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12826472935",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12833586345",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12838467694",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12843160767",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12843951824",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12847872787",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12847872788",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12854342543",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12854342544",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12854342553",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12854342554",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12861302055",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12861302060",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12861302063",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12861302061",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12869247711",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12869247712",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12869551125",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12882392981",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12882392982",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12895331816",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12895685261",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12895685272",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12899300090",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12917936600",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12924967012",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12942584360",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12974282904",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12978787403",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979012612",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979012717",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979012718",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979012719",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979012735",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979012758",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12979448765",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12988464442",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12996499143",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12997908557",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "12996508429",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13007699135",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13007699136",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13013319950",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13015326786",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13016290128",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13026823934",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13038827313",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13043531261",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13064384758",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13064416967",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13064416993",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13064425546",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13087891000",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13087891828",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13097270884",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13108588308",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13125148257",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13124303963",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13131802074",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13137722101",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13141908441",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13141908452",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13146923601",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13141908459",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  },
+  {
+    "fountainId": "13151383764",
+    "running": 0,
+    "outOfService": 0,
+    "abandoned": 0
+  }
+]
