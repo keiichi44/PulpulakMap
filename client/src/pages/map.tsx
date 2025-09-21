@@ -5,12 +5,10 @@ import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import LeafletMap from "@/components/map/leaflet-map";
 import InfoModal from "@/components/info-modal";
-import FeedbackModal from "@/components/feedback-modal";
 import { fetchDrinkingFountains } from "@/services/overpass-api";
 import { fetchWalkingRoute, type Route } from "@/services/routing-api";
 import { getCurrentPosition } from "@/utils/geolocation";
 import { calculateDistance } from "@/utils/distance";
-import type { FountainFeedback } from "@shared/feedback-types";
 
 export interface Fountain {
   id: string;
@@ -31,9 +29,6 @@ export default function MapPage() {
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
   const [walkingRoute, setWalkingRoute] = useState<Route | null>(null);
   const [nearestFountain, setNearestFountain] = useState<Fountain | null>(null);
-  const [feedbackModalOpen, setFeedbackModalOpen] = useState(false);
-  const [selectedFountain, setSelectedFountain] = useState<{ id: string; name: string } | null>(null);
-  const [feedbackData, setFeedbackData] = useState<Map<string, FountainFeedback>>(new Map());
   const { toast } = useToast();
 
   // Check if this is the first visit and auto-open modal for new users
@@ -60,57 +55,6 @@ export default function MapPage() {
     retry: 2,
     staleTime: 1000 * 60 * 15, // 15 minutes
   });
-
-  // Fetch feedback data for all fountains
-  useEffect(() => {
-    const fetchFeedbackForFountains = async () => {
-      if (fountains.length === 0) return;
-      
-      const feedbackMap = new Map<string, FountainFeedback>();
-      
-      // Fetch feedback for each fountain
-      try {
-        const feedbackPromises = fountains.map(async (fountain) => {
-          try {
-            const response = await fetch(`/api/feedback/${fountain.id}`);
-            if (response.ok) {
-              const feedback: FountainFeedback = await response.json();
-              return { fountainId: fountain.id, feedback };
-            }
-          } catch (error) {
-            console.warn(`Failed to fetch feedback for fountain ${fountain.id}:`, error);
-          }
-          return null;
-        });
-        
-        const results = await Promise.all(feedbackPromises);
-        
-        results.forEach((result) => {
-          if (result) {
-            feedbackMap.set(result.fountainId, result.feedback);
-          }
-        });
-        
-        setFeedbackData(feedbackMap);
-      } catch (error) {
-        console.warn('Error fetching feedback data:', error);
-      }
-    };
-
-    fetchFeedbackForFountains();
-  }, [fountains]);
-
-  // Handle feedback modal opening
-  const handleReportClick = (fountainId: string, fountainName: string) => {
-    setSelectedFountain({ id: fountainId, name: fountainName });
-    setFeedbackModalOpen(true);
-  };
-
-  // Handle feedback modal closing
-  const handleFeedbackModalClose = () => {
-    setFeedbackModalOpen(false);
-    setSelectedFountain(null);
-  };
 
   const handleFindNearby = async () => {
     setIsGettingLocation(true);
@@ -254,8 +198,6 @@ export default function MapPage() {
             userLocation={userLocation}
             walkingRoute={walkingRoute}
             nearestFountain={nearestFountain}
-            feedbackData={feedbackData}
-            onReportClick={handleReportClick}
             data-testid="map-container"
           />
         )}
@@ -285,14 +227,6 @@ export default function MapPage() {
       <InfoModal
         isOpen={isInfoModalOpen}
         onClose={handleInfoModalClose}
-      />
-
-      {/* Feedback Modal */}
-      <FeedbackModal
-        isOpen={feedbackModalOpen}
-        onClose={handleFeedbackModalClose}
-        fountainId={selectedFountain?.id || ''}
-        fountainName={selectedFountain?.name || ''}
       />
     </div>
   );

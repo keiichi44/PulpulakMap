@@ -4,7 +4,6 @@ import "leaflet/dist/leaflet.css";
 import type { Fountain, UserLocation } from "@/pages/map";
 import type { Route } from "@/services/routing-api";
 import { calculateDistance } from "@/utils/distance";
-import type { FountainFeedback } from "@shared/feedback-types";
 
 // Fix for default markers in Leaflet with webpack
 delete (L.Icon.Default.prototype as any)._getIconUrl;
@@ -19,13 +18,11 @@ interface LeafletMapProps {
   userLocation: UserLocation | null;
   walkingRoute: Route | null;
   nearestFountain: Fountain | null;
-  feedbackData: Map<string, FountainFeedback>;
-  onReportClick: (fountainId: string, fountainName: string) => void;
 }
 
 const YEREVAN_CENTER: [number, number] = [40.1792, 44.4991];
 
-export default function LeafletMap({ fountains, userLocation, walkingRoute, nearestFountain, feedbackData, onReportClick }: LeafletMapProps) {
+export default function LeafletMap({ fountains, userLocation, walkingRoute, nearestFountain }: LeafletMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
   const mapInstanceRef = useRef<L.Map | null>(null);
   const fountainMarkersRef = useRef<L.Marker[]>([]);
@@ -147,9 +144,6 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
         imageUrl = `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}?width=300`;
       }
       
-      // Get feedback data for this fountain
-      const feedback = feedbackData.get(fountain.id);
-      
       const popupContent = `
         <div class="p-3 min-w-[200px] max-w-[280px]">
           ${imageUrl ? `
@@ -170,7 +164,7 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
             ${hasMultipleNames ? `<p class="text-xs text-gray-600 mt-1 italic">${localName}</p>` : ''}
           </div>
           
-          <div class="text-xs text-gray-600 space-y-1 mb-3">
+          <div class="text-xs text-gray-600 space-y-1">
             ${userLocation ? `
               <p class="flex items-center">
                 <span class="mr-1">📍</span>
@@ -204,27 +198,6 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
               </p>
             ` : ''}
           </div>
-          
-          <!-- Community Feedback Section -->
-          ${feedback ? `
-            <div class="border-t border-gray-200 pt-2 mb-3">
-              <p class="text-xs font-medium text-gray-700 mb-1">Community Reports:</p>
-              <div class="flex space-x-3 text-xs">
-                <span class="text-green-600">✅ ${feedback.running}</span>
-                <span class="text-red-600">❌ ${feedback.outOfService}</span>
-                <span class="text-yellow-600">❓ ${feedback.abandoned}</span>
-              </div>
-            </div>
-          ` : ''}
-          
-          <!-- Report Button -->
-          <button 
-            onclick="window.reportFountain && window.reportFountain('${fountain.id}', '${displayName.replace(/'/g, "\\'")}');"
-            class="w-full bg-blue-500 hover:bg-blue-600 text-white text-xs font-medium py-2 px-3 rounded-md transition-colors duration-200"
-            data-testid="button-report-fountain"
-          >
-            📝 Report Status
-          </button>
         </div>
       `;
 
@@ -232,19 +205,7 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       marker.addTo(mapInstanceRef.current!);
       fountainMarkersRef.current.push(marker);
     });
-  }, [fountains, userLocation, nearestFountain, walkingRoute, feedbackData]);
-
-  // Set up global callback for fountain reporting
-  useEffect(() => {
-    (window as any).reportFountain = (fountainId: string, fountainName: string) => {
-      console.log('Global reportFountain called with:', fountainId, fountainName);
-      onReportClick(fountainId, fountainName);
-    };
-
-    return () => {
-      delete (window as any).reportFountain;
-    };
-  }, [onReportClick]);
+  }, [fountains, userLocation, nearestFountain, walkingRoute]);
 
   // Update user marker
   useEffect(() => {
