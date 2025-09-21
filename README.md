@@ -18,6 +18,7 @@ A pulpulak is a public water fountain common in Armenia and in the former Armeni
 - **Real-time Data**: Powered by OpenStreetMap for up-to-date fountain locations
 
 ## 🛠️ Technology Stack
+**⚠️ Vibecode warning! The project has been totally vibecoded using Replit and has no code review at the moment!**
 
 ### Frontend
 - **React 18** with TypeScript for type-safe development
