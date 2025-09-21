@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
 
@@ -76,9 +76,9 @@ export default function FeedbackModal({ isOpen, onClose, fountainId, fountainNam
           <DialogTitle className="text-lg font-semibold">
             Report Fountain Status
           </DialogTitle>
-          <p className="text-sm text-gray-600 mt-1">
+          <DialogDescription className="text-sm text-gray-600">
             How is <span className="font-medium">{fountainName}</span> working?
-          </p>
+          </DialogDescription>
         </DialogHeader>
 
         <div className="space-y-3 py-4">
