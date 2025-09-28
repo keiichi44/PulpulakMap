@@ -56,35 +56,33 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
     const style = document.createElement("style");
     style.textContent = `
       .custom-marker-fountain {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 12px;
+        background: #9333ea;
+        border: 2px solid #ffffff;
+        border-radius: 50%;
         height: 16px;
         width: 16px;
-        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       }
       
       .custom-marker-fountain-nearest {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 16px;
+        background: #7c3aed;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
         height: 20px;
         width: 20px;
-        filter: drop-shadow(0 3px 8px rgba(66, 133, 244, 0.6));
+        box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
         animation: pulse-nearest 2s infinite;
       }
       
       @keyframes pulse-nearest {
         0% {
-          filter: drop-shadow(0 3px 8px rgba(66, 133, 244, 0.6));
+          box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
         }
         50% {
-          filter: drop-shadow(0 3px 12px rgba(66, 133, 244, 1));
+          box-shadow: 0 3px 12px rgba(147, 51, 234, 1);
         }
         100% {
-          filter: drop-shadow(0 3px 8px rgba(66, 133, 244, 0.6));
+          box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
         }
       }
       
@@ -126,7 +124,7 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       const marker = L.marker([fountain.lat, fountain.lon], {
         icon: L.divIcon({
           className: isNearest ? "custom-marker-fountain-nearest" : "custom-marker-fountain",
-          html: "💧",
+          html: "",
           iconSize: isNearest ? [20, 20] : [16, 16],
           iconAnchor: isNearest ? [10, 10] : [8, 8],
         }),
