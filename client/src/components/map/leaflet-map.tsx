@@ -56,7 +56,7 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
     const style = document.createElement("style");
     style.textContent = `
       .custom-marker-fountain {
-        background: #9333ea;
+        background: hsl(217, 91%, 60%);
         border: 2px solid #ffffff;
         border-radius: 50%;
         height: 16px;
@@ -65,24 +65,24 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       }
       
       .custom-marker-fountain-nearest {
-        background: #7c3aed;
+        background: hsl(217, 91%, 55%);
         border: 3px solid #ffffff;
         border-radius: 50%;
         height: 20px;
         width: 20px;
-        box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
+        box-shadow: 0 3px 8px rgba(66, 133, 244, 0.6);
         animation: pulse-nearest 2s infinite;
       }
       
       @keyframes pulse-nearest {
         0% {
-          box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
+          box-shadow: 0 3px 8px rgba(66, 133, 244, 0.6);
         }
         50% {
-          box-shadow: 0 3px 12px rgba(147, 51, 234, 1);
+          box-shadow: 0 3px 12px rgba(66, 133, 244, 1);
         }
         100% {
-          box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
+          box-shadow: 0 3px 8px rgba(66, 133, 244, 0.6);
         }
       }
       
