@@ -90,9 +90,9 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 16px;
-        height: 20px;
-        width: 20px;
+        font-size: 32px;
+        height: 40px;
+        width: 40px;
       }
     `;
     document.head.appendChild(style);
@@ -211,8 +211,8 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
         icon: L.divIcon({
           className: "custom-marker-user",
           html: "🚶‍♂️",
-          iconSize: [20, 20],
-          iconAnchor: [10, 10],
+          iconSize: [40, 40],
+          iconAnchor: [20, 20],
         }),
       });
 
