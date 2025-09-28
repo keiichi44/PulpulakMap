@@ -87,12 +87,12 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       }
       
       .custom-marker-user {
-        background: #4285f4;
-        border: 3px solid #ffffff;
-        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
         height: 20px;
         width: 20px;
-        box-shadow: 0 2px 8px rgba(66, 133, 244, 0.4);
       }
     `;
     document.head.appendChild(style);
@@ -210,7 +210,7 @@ export default function LeafletMap({ fountains, userLocation, walkingRoute, near
       const marker = L.marker([userLocation.lat, userLocation.lng], {
         icon: L.divIcon({
           className: "custom-marker-user",
-          html: "",
+          html: "🚶‍♂️",
           iconSize: [20, 20],
           iconAnchor: [10, 10],
         }),
