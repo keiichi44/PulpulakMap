@@ -108,37 +108,7 @@
   }
 }
 
-/* Leaflet marker styles */
-.custom-marker-fountain {
-  background: #9333ea;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-  height: 16px;
-  width: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.custom-marker-fountain-nearest {
-  background: #7c3aed;
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
-  animation: pulse-nearest 2s infinite;
-}
-
-@keyframes pulse-nearest {
-  0% {
-    box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
-  }
-  50% {
-    box-shadow: 0 3px 12px rgba(147, 51, 234, 1);
-  }
-  100% {
-    box-shadow: 0 3px 8px rgba(147, 51, 234, 0.6);
-  }
-}
+/* Leaflet marker styles are now defined inline in the component */
 
 .custom-marker-user {
   background: #4285f4;
