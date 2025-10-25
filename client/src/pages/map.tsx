@@ -10,6 +10,10 @@ import { fetchWalkingRoute, type Route } from "@/services/routing-api";
 import { getCurrentPosition } from "@/utils/geolocation";
 import { calculateDistance } from "@/utils/distance";
 
+import pplk from "@assets/pplk.png";
+
+import pplk_drop_1 from "@assets/pplk-drop 1.png";
+
 export interface Fountain {
   id: string;
   lat: number;
@@ -158,7 +162,7 @@ export default function MapPage() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <img 
-              src="https://wiki.openstreetmap.org/w/images/a/a1/Fountain-14.svg" 
+              src={pplk_drop_1} 
               alt="Fountain icon" 
               className="h-8 w-8"
             />
@@ -182,7 +186,6 @@ export default function MapPage() {
           </div>
         </div>
       </header>
-
       {/* Main Map Container */}
       <main className="flex-1 pt-16 relative">
         {isFountainsLoading ? (
@@ -222,7 +225,6 @@ export default function MapPage() {
           </Button>
         </div>
       </main>
-
       {/* Info Modal */}
       <InfoModal
         isOpen={isInfoModalOpen}

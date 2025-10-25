@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import pulpulakImage from "@assets/Pulpulak_1758138201916.jpg";
 
+import pplk_drop_201 from "@assets/pplk-drop 1.png";
+
 interface InfoModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -88,7 +90,6 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
             <h2 className="text-xl font-bold text-gray-900 mb-4" data-testid="text-slide3-header">
               FAQ Pulpulak
             </h2>
-            
             <div className="max-h-80 overflow-y-auto space-y-4 pr-2" data-testid="text-slide3-content">
               <div className="space-y-3">
                 <div>
@@ -119,12 +120,8 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold text-gray-900 text-sm mb-2">
-                    So, is the water being wasted? Who is paying for this?
-                  </h3>
-                  <p className="text-sm text-gray-700 leading-relaxed">
-                    Yes, most pulpulaks are like an open tap. However, the water pressure is low, resulting in minimal water waste. Nevertheless, in most cases, it does go down the drain. And Armenian taxpayers are paying for it. Isn't that a reason to drink more from pulpulaks?
-                  </p>
+                  <h3 className="font-semibold text-gray-900 text-sm mb-2">I have found a broken one. How should I report it?</h3>
+                  <p className="text-sm text-gray-700 leading-relaxed">As most pulpulaks are owned by the municipality, you can report a broken pulpulak using the Active Citizen app. They will repair it and provide you with a report.</p>
                 </div>
 
                 <div>
@@ -160,7 +157,7 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
           {/* Logo and title */}
           <div className="flex items-center space-x-2">
             <img 
-              src="https://wiki.openstreetmap.org/w/images/a/a1/Fountain-14.svg" 
+              src={pplk_drop_201} 
               alt="Fountain icon" 
               className="h-6 w-6"
               data-testid="img-logo"
