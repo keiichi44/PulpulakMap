@@ -87,9 +87,7 @@ export default function InfoModal({ isOpen, onClose }: InfoModalProps) {
       case 2:
         return (
           <div className="p-6 space-y-4">
-            <h2 className="text-xl font-bold text-gray-900 mb-4" data-testid="text-slide3-header">
-              FAQ Pulpulak
-            </h2>
+            <h2 className="text-xl font-bold text-gray-900 mb-4" data-testid="text-slide3-header">FAQ</h2>
             <div className="max-h-80 overflow-y-auto space-y-4 pr-2" data-testid="text-slide3-content">
               <div className="space-y-3">
                 <div>
