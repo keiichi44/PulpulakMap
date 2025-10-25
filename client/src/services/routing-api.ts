@@ -10,7 +10,8 @@ export interface Route {
 }
 
 // Using OSRM (Open Source Routing Machine) free public API for pedestrian routing
-const OSRM_API_URL = "https://router.project-osrm.org/route/v1/foot";
+// Note: routing.openstreetmap.de/routed-foot is built with the foot profile for proper pedestrian routing
+const OSRM_API_URL = "https://routing.openstreetmap.de/routed-foot/route/v1/driving";
 
 export async function fetchWalkingRoute(
   start: RoutePoint,
