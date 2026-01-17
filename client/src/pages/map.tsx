@@ -10,8 +10,6 @@ import { fetchWalkingRoute, type Route } from "@/services/routing-api";
 import { getCurrentPosition } from "@/utils/geolocation";
 import { calculateDistance } from "@/utils/distance";
 
-import pplk from "@assets/pplk.png";
-
 import pplk_drop_1 from "@assets/pplk-drop 1.png";
 
 export interface Fountain {
@@ -54,12 +52,18 @@ export default function MapPage() {
     data: fountains = [],
     isLoading: isFountainsLoading,
     error: fountainsError,
+    refetch: refetchFountains,
+    isRefetching,
   } = useQuery({
     queryKey: ["/api/fountains", "yerevan"],
     queryFn: fetchDrinkingFountains,
     retry: 2,
     staleTime: 1000 * 60 * 15, // 15 minutes
   });
+
+  const handleRetryFountains = () => {
+    refetchFountains();
+  };
 
   const handleFindNearby = async () => {
     setIsGettingLocation(true);
@@ -144,16 +148,6 @@ export default function MapPage() {
       setIsGettingLocation(false);
     }
   };
-
-  useEffect(() => {
-    if (fountainsError) {
-      toast({
-        variant: "destructive",
-        title: "Error loading fountains",
-        description: "Failed to load drinking fountain data. Please try refreshing the page.",
-      });
-    }
-  }, [fountainsError, toast]);
 
   return (
     <div className="h-screen flex flex-col">
@@ -293,6 +287,59 @@ export default function MapPage() {
                 className="bg-blue-600 hover:bg-blue-700 text-white"
               >
                 Close
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Error Modal */}
+      {fountainsError && fountains.length === 0 && !isFountainsLoading && !isRefetching && (
+        <div 
+          className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
+          style={{ zIndex: 1200 }}
+        >
+          <div 
+            className="bg-white border rounded-lg shadow-lg max-w-2xl w-full overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header with logo */}
+            <div className="flex items-center justify-between p-4 border-b">
+              <div className="flex items-center space-x-2">
+                <img 
+                  src={pplk_drop_1} 
+                  alt="Fountain icon" 
+                  className="h-6 w-6"
+                />
+                <div className="text-lg font-bold">
+                  <span className="text-primary">Pulpu</span>
+                  <span className="text-purple-600">luck</span>
+                </div>
+              </div>
+            </div>
+            
+            {/* Content */}
+            <div className="p-8 text-center">
+              <p className="text-gray-700 text-lg">
+                Sorry, couldn't load fountain data. Click Retry to reload.
+              </p>
+            </div>
+            
+            {/* Footer */}
+            <div className="p-4 border-t bg-gray-50 flex justify-center">
+              <Button
+                onClick={handleRetryFountains}
+                disabled={isRefetching}
+                className="bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                {isRefetching ? (
+                  <>
+                    <Loader2 className="h-4 w-4 mr-2 animate-spin" />
+                    Reloading...
+                  </>
+                ) : (
+                  "Reload"
+                )}
               </Button>
             </div>
           </div>
