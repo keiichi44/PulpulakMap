@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { MapPin, Navigation, HelpCircle, Loader2 } from "lucide-react";
+import { MapPin, Navigation, HelpCircle, Loader2, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import LeafletMap from "@/components/map/leaflet-map";
@@ -31,6 +31,7 @@ export default function MapPage() {
   const [userLocation, setUserLocation] = useState<UserLocation | null>(null);
   const [isGettingLocation, setIsGettingLocation] = useState(false);
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+  const [isCounterModalOpen, setIsCounterModalOpen] = useState(false);
   const [walkingRoute, setWalkingRoute] = useState<Route | null>(null);
   const [nearestFountain, setNearestFountain] = useState<Fountain | null>(null);
   const { toast } = useToast();
@@ -206,15 +207,16 @@ export default function MapPage() {
         )}
         
         {/* Fountain Counter */}
-        <div 
-          className="absolute top-20 right-4 z-[999] bg-white rounded-full px-4 py-2 flex items-center space-x-2"
+        <button 
+          onClick={() => setIsCounterModalOpen(true)}
+          className="absolute top-20 right-4 z-[999] bg-white rounded-full px-4 py-2 flex items-center space-x-2 cursor-pointer hover:bg-gray-50 transition-colors"
           style={{ 
             boxShadow: '0 10px 25px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.15)'
           }}
         >
           <span className="text-lg">💧</span>
           <span className="font-bold text-black">{fountains.length.toLocaleString()}</span>
-        </div>
+        </button>
         
         {/* Floating Find Nearby Button */}
         <div className="absolute bottom-20 md:bottom-8 left-1/2 transform -translate-x-1/2 z-[999]">
@@ -241,6 +243,61 @@ export default function MapPage() {
         isOpen={isInfoModalOpen}
         onClose={handleInfoModalClose}
       />
+      
+      {/* Counter Modal */}
+      {isCounterModalOpen && (
+        <div 
+          className="fixed inset-0 bg-black/50 flex items-center justify-center p-4"
+          style={{ zIndex: 1200 }}
+          onClick={() => setIsCounterModalOpen(false)}
+        >
+          <div 
+            className="bg-white border rounded-lg shadow-lg max-w-2xl w-full overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header with logo and close button */}
+            <div className="flex items-center justify-between p-4 border-b">
+              <div className="flex items-center space-x-2">
+                <img 
+                  src={pplk_drop_1} 
+                  alt="Fountain icon" 
+                  className="h-6 w-6"
+                />
+                <div className="text-lg font-bold">
+                  <span className="text-primary">Pulpu</span>
+                  <span className="text-purple-600">luck</span>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsCounterModalOpen(false)}
+                className="rounded-sm opacity-70 hover:opacity-100 transition-opacity p-1 hover:bg-gray-100"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+            
+            {/* Content */}
+            <div className="p-8 text-center">
+              <div className="text-6xl font-bold text-black mb-4">
+                {fountains.length.toLocaleString()}
+              </div>
+              <p className="text-gray-700">
+                The number of pulpulacks within Yerevan municipality.
+              </p>
+            </div>
+            
+            {/* Footer */}
+            <div className="p-4 border-t bg-gray-50 flex justify-center">
+              <Button
+                onClick={() => setIsCounterModalOpen(false)}
+                className="bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                Close
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
