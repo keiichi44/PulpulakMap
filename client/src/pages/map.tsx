@@ -205,6 +205,17 @@ export default function MapPage() {
           />
         )}
         
+        {/* Fountain Counter */}
+        <div 
+          className="absolute top-4 right-4 z-[999] bg-white rounded-full px-4 py-2 flex items-center space-x-2"
+          style={{ 
+            boxShadow: '0 10px 25px rgba(0, 0, 0, 0.3), 0 6px 10px rgba(0, 0, 0, 0.15)'
+          }}
+        >
+          <span className="text-lg">💧</span>
+          <span className="font-bold text-black">{fountains.length.toLocaleString()}</span>
+        </div>
+        
         {/* Floating Find Nearby Button */}
         <div className="absolute bottom-20 md:bottom-8 left-1/2 transform -translate-x-1/2 z-[999]">
           <Button

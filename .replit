@@ -15,18 +15,6 @@ publicDir = "dist"
 localPort = 5000
 externalPort = 80
 
-[[ports]]
-localPort = 35309
-externalPort = 3001
-
-[[ports]]
-localPort = 40793
-externalPort = 3000
-
-[[ports]]
-localPort = 45173
-externalPort = 3002
-
 [env]
 PORT = "5000"
 
