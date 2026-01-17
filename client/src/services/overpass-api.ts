@@ -1,9 +1,29 @@
 import type { Fountain } from "@/pages/map";
 
 const OVERPASS_API_URL = "https://overpass-api.de/api/interpreter";
+const CACHE_KEY = "pulpuluck-fountains-cache";
+
+function getCachedFountains(): Fountain[] | null {
+  try {
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) {
+      return JSON.parse(cached);
+    }
+  } catch (e) {
+    console.error("Error reading fountain cache:", e);
+  }
+  return null;
+}
+
+function setCachedFountains(fountains: Fountain[]): void {
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify(fountains));
+  } catch (e) {
+    console.error("Error caching fountains:", e);
+  }
+}
 
 export async function fetchDrinkingFountains(): Promise<Fountain[]> {
-  // Yerevan bounding box: approximately 40.1, 44.4, 40.3, 44.7
   const overpassQuery = `
     [out:json][timeout:25];
     (
@@ -29,7 +49,6 @@ export async function fetchDrinkingFountains(): Promise<Fountain[]> {
 
     const data = await response.json();
     
-    // Filter out elements without coordinates and transform to our Fountain type
     const fountains: Fountain[] = data.elements
       .filter((element: any) => element.lat && element.lon)
       .map((element: any) => ({
@@ -40,48 +59,17 @@ export async function fetchDrinkingFountains(): Promise<Fountain[]> {
         tags: element.tags || {},
       }));
 
+    setCachedFountains(fountains);
     return fountains;
   } catch (error) {
     console.error("Error fetching drinking fountains:", error);
     
-    // Return some fallback fountains for demonstration
-    // In a real app, you might want to throw the error instead
-    return [
-      {
-        id: "1",
-        lat: 40.1776,
-        lon: 44.5126,
-        name: "Republic Square Fountain",
-        tags: { name: "Republic Square Fountain" },
-      },
-      {
-        id: "2",
-        lat: 40.1836,
-        lon: 44.5147,
-        name: "Opera House Fountain",
-        tags: { name: "Opera House Fountain" },
-      },
-      {
-        id: "3",
-        lat: 40.1901,
-        lon: 44.5153,
-        name: "Northern Avenue Fountain",
-        tags: { name: "Northern Avenue Fountain" },
-      },
-      {
-        id: "4",
-        lat: 40.1695,
-        lon: 44.5089,
-        name: "Victory Park Fountain",
-        tags: { name: "Victory Park Fountain" },
-      },
-      {
-        id: "5",
-        lat: 40.1812,
-        lon: 44.4889,
-        name: "Hrazdan Gorge Fountain",
-        tags: { name: "Hrazdan Gorge Fountain" },
-      },
-    ];
+    const cachedFountains = getCachedFountains();
+    if (cachedFountains && cachedFountains.length > 0) {
+      console.log("Using cached fountain data");
+      return cachedFountains;
+    }
+    
+    throw new Error("Failed to load fountain data and no cache available");
   }
 }
